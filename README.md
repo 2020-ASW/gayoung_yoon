@@ -1,1 +1,1 @@
-# gayoung_yoon
+# Algorithm
