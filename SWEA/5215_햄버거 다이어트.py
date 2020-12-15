@@ -1,3 +1,6 @@
+# dfs(+재귀)를 이용해 풀었다.
+# 동적 프로그래밍으로도 풀 수 있다.https://blog.naver.com/PostView.nhn?blogId=ebchoi227&logNo=222114867672&categoryNo=14&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
 T = int(input())
 
 def find(idx, sum_flavor, sum_kcal):
