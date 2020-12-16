@@ -6,7 +6,6 @@ board = [list(map(int, input().split())) for _ in range(M)]
 near = [(0, 1), (0, -1), (1, 0), (-1, 0)]
 
 visit = [[0] * N for _ in range(M)]
-visit[0][0] = 1
 
 x, y = 0, 0
 def dfs(x, y):
@@ -18,8 +17,10 @@ def dfs(x, y):
         for a, b in near:
             xi, yi = x + a, y + b
             if 0 <= xi < M and 0 <= yi < N and board[x][y] > board[xi][yi]:
-                visit[x][y] += dfs(xi, yi)
+                visit[xi][yi] = 1
+            print('visit')
+            print(visit)
                 
     return visit
 
-print(visit)
+print(dfs(x, y))
