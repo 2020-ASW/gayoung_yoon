@@ -1,5 +1,5 @@
 class Solution:
-    def maxArea(height):
+    def maxArea(self, height):
         start, end = 0, len(height) - 1
         y_height = 0
 
