@@ -1,9 +1,6 @@
 # LIS(3745위한 연습2)
 
 # 2. 이분탐색 이용
-def move(i):
-    return 0
-
 n = int(input())
 arr = list(map(int,input().split()))
 dp = [0]
@@ -23,6 +20,9 @@ for i in arr:
     dp[start] = i
     print('dp_final')
     print(dp)
+dp = dp[1:]
+print(len(dp))
+print(' '.join(map(str, dp)))
 
 '''
 6
