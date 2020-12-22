@@ -6,8 +6,7 @@ def solution(n, money):
         board[0][i] = 1
     # print(board)
     # print('-----------------------------------------------------')
-    # [[1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
-    #  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
     for x in range(1, len(money)):
         for y in range(n+1):
             if y >= money[x]:
