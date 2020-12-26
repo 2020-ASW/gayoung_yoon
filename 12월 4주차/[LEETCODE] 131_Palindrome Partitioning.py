@@ -18,4 +18,4 @@ def partition(s):
     go(s, [])
     return answer
     
-print(partition("aab"))
+print(partition("aabaa"))
