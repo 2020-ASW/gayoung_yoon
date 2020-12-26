@@ -5,7 +5,7 @@ height = [0,1,0,2,1,0,1,3,2,1,2,1]  # 6
 
 def trap(self, height):
     if not height:
-        print(0)
+        return 0
 
     answer = 0
     left_index, right_index = 0, len(height) - 1
@@ -25,20 +25,6 @@ def trap(self, height):
 '''
 height = [0,1,0,2,1,0,1,3,2,1,2,1]
 ===================================
-left_index, right_index
-0 11
-left, right
-0 1
-answer
-0
-------------------------------------
-left_index, right_index
-1 11
-left, right
-1 1
-answer
-0
-------------------------------------
 left_index, right_index
 2 11
 left, right
