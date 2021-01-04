@@ -1,3 +1,4 @@
+# bfs로 실패,, dp로 성공
 def solution(m, n, puddles):
     board = [[0] * (m+1) for _ in range(n+1)]
     board[1][1] = 1
